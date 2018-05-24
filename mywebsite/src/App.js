@@ -5,7 +5,11 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <h1>Samuel Gedaly</h1>
+      <div className="App">
+        <div className="App-logo">
+          <h1><font color="white">Samuel Gedaly</font></h1>
+        </div>
+      </div>
     );
   }
 }
